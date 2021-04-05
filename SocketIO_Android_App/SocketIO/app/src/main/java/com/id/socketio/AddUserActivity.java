@@ -33,7 +33,7 @@ public class AddUserActivity extends AppCompatActivity {
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 if (charSequence.toString().trim().length() > 0) {
                     setNickName.setEnabled(true);
-                    Log.i(MainActivity.TAG, "onTextChanged: ABLED");
+                    Log.i(MainActivity.TAG, "onTextChanged: ENABLED");
                 } else {
                     Log.i(MainActivity.TAG, "onTextChanged: DISABLED");
                     setNickName.setEnabled(false);
